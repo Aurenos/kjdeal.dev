@@ -1,0 +1,2 @@
+defmodule KJDeal do
+end

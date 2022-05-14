@@ -1,0 +1,26 @@
+---
+title: "Kile Deal | Developer"
+---
+
+doctype html
+html
+  head
+    title #{@title}
+    meta charset="UTF-8"
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+    = link_to_css @env, "global.css"
+  body
+
+  header
+    section.mb-0
+      nav.main-nav
+        h1 Kile Deal
+        ul
+          li
+            = link @env, "Home", to: "/", class: if @current == "home", do: "nav-pretty"
+          li
+            = link @env, "Resumè", to: "/resume", class: if @current == "resume", do: "nav-pretty"
+          li 
+            = link @env, "Contact", to: "/contact", class: if @current == "contact", do: "nav-pretty"
+  
+  = @children

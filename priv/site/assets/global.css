@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Quattrocento:wght@400;700&family=Metal+Mania:wght@400;700');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-dark;
+  @apply text-gray-300;
+  @apply font-serif;
+  @apply text-xl;
+}
+
+h1 {
+  @apply text-3xl font-bold font-sans;
+  @apply mb-4;
+}
+
+a {
+  @apply text-aquamarine;
+}
+
+a:hover {
+  @apply underline;
+}
+
+section {
+  @apply mb-8;
+}
+
+.nav-pretty {
+  @apply text-transparent;
+  @apply bg-clip-text;
+  @apply bg-gradient-to-b from-aquamarine to-purple-500;
+}
+
+
+.main-nav {
+  @apply flex flex-row;
+  @apply py-8 px-12;
+  @apply bg-gradient-to-b from-darker via-darker to-dark;
+  @apply font-heading;
+}
+
+.main-nav h1 {
+  @apply text-5xl text-aquamarine font-heading;
+}
+
+.main-nav ul {
+  @apply flex flex-grow;
+  @apply place-content-end;
+  @apply items-center;
+}
+
+.main-nav ul li:not(:last-child) {
+  @apply mr-12;
+}
+
+.main-nav ul li a {
+  @apply text-3xl;
+}
+
+.main-nav ul li a:hover {
+  @apply nav-pretty;
+}

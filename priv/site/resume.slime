@@ -1,0 +1,13 @@
+---
+layout: _includes/_layout.slime
+current: resume
+---
+
+main.container.w-9/12.ml-12
+  article
+    section
+      h1 Skills
+    section
+      h1 Experience
+    section
+      h1 Education
