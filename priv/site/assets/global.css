@@ -77,3 +77,8 @@ section {
 .main-nav ul li a:hover {
   @apply nav-pretty;
 }
+
+.g-recaptcha div:first-child
+{
+  @apply mx-auto;
+}
