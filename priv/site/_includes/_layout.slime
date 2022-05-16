@@ -25,5 +25,5 @@ html
   
   = @children
 
-  footer.place-content-end
+  footer
     = include @env, "_includes/footer.slime"
