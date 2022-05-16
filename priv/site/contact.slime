@@ -3,13 +3,13 @@ layout: _includes/_layout.slime
 current: contact
 ---
 
-main.container
-article.flex.items-center.h-screen.flex-col.text-center
-  section
-    h1 Email
-    p kile@kjdeal.dev
-  section
-    h1 Social
-    ul
-      li
-        = link @env, "Github", to: "https://www.github.com/Aurenos"
+main.mx-auto
+  article.flex.items-center.flex-col.text-center
+    section
+      h1 Email
+      p kile@kjdeal.dev
+    section
+      h1 Social
+      ul
+        li
+          = link @env, "Github", to: "https://www.github.com/Aurenos"

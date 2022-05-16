@@ -1,0 +1,4 @@
+hr.border.border-cool-gray.border-opacity-40
+section.flex.w-full.mt-2
+  .mx-auto.text-sm.text-cool-gray
+    p This site was built with <%= link @env, "Still", to: "https://www.stillstatic.io" %> | <%= link @env, "Source", to: "https://www.github.com/Aurenos/kjdeal.dev" %>

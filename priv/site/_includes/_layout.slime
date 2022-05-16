@@ -9,7 +9,7 @@ html
     meta charset="UTF-8"
     meta name="viewport" content="width=device-width, initial-scale=1.0"
     = link_to_css @env, "global.css"
-  body
+  body.flex.flex-col.h-screen.justify-between
 
   header
     section.mb-0
@@ -24,3 +24,6 @@ html
             = link @env, "Contact", to: "/contact", class: if @current == "contact", do: "nav-pretty"
   
   = @children
+
+  footer.place-content-end
+    = include @env, "_includes/footer.slime"

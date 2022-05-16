@@ -3,7 +3,7 @@ layout: _includes/_layout.slime
 current: home
 ---
 
-main.container.w-9/12.ml-12
+main.w-9/12.ml-12
   article
     section
       h1 This site is a work in progress!

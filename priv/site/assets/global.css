@@ -11,6 +11,11 @@ body {
   @apply text-xl;
 }
 
+main {
+  @apply container;
+  @apply mb-auto;
+}
+
 h1 {
   @apply text-3xl font-bold font-sans;
   @apply mb-4;
