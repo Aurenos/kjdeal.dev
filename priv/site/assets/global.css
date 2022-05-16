@@ -37,17 +37,19 @@ section {
 
 .main-nav {
   @apply flex flex-row;
-  @apply py-8 px-12;
+  @apply px-12;
+  @apply h-32;
   @apply bg-gradient-to-b from-darker via-darker to-dark;
   @apply font-heading;
 }
 
 .main-nav h1 {
-  @apply text-5xl text-aquamarine font-heading;
+  @apply text-5xl font-heading my-auto;
 }
 
 .main-nav ul {
   @apply flex flex-grow;
+  @apply my-auto;
   @apply place-content-end;
   @apply items-center;
 }

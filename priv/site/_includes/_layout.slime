@@ -14,7 +14,7 @@ html
   header
     section.mb-0
       nav.main-nav
-        h1 Kile Deal
+        h1.font-normal.text-transparent.bg-clip-text.bg-gradient-to-b.from-aquamarine.to-lemon Kile Deal
         ul
           li
             = link @env, "Home", to: "/", class: if @current == "home", do: "nav-pretty"
