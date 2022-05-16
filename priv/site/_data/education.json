@@ -1,0 +1,28 @@
+[
+  {
+    "school": "Georgia Southern University",
+    "degree": "Bachelor of Science in Computer Science",
+    "date": "Jan 2012 - Dec 2013",
+    "distinctions": [
+      {
+        "description": "Vice President of GS ACM Chapter",
+        "date": "Fall 2013"
+      },
+      {
+        "description": "ACM Intercollegiate Programming Contest",
+        "date": "Fall 2012 & Fall 2013"
+      }
+    ]
+  },
+  {
+    "school": "Middle Georgia State University",
+    "degree": "Associate of Science in Computer Science",
+    "date": "Aug 2009 - July 2011",
+    "distinctions": [
+      {
+        "description": "Departmental Award for Computer Science",
+        "date": "Spring 2011"
+      }
+    ]
+  }
+]

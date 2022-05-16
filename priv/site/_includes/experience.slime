@@ -1,0 +1,10 @@
+= @experience |> Enum.map fn exp ->
+  div.mb-4
+    h2.flex.flex-row
+      span.text-2xl.font-sans.mb-2 💠 #{exp[:company]}
+      span.ml-4.text-cool-gray.text-base.my-auto.font-sans #{exp[:date]}
+    p.flex.flex-row.ml-7
+      span.font-sans #{exp[:title]}
+    ul.list-disc
+      = exp[:responsibilities] |> Enum.map fn resp ->
+        li.ml-12.list-item.text-base #{resp}

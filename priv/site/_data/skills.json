@@ -1,0 +1,41 @@
+{
+  "languages": {
+    "high_proficiency": [
+      "Python",
+      "C#"
+    ],
+    "proficient": [
+      "JavaScript",
+      "SQL",
+      "Elm",
+      "Java",
+      "PHP"
+    ],
+    "dabbled": [
+      "Elixir",
+      "Rust",
+      "Haskell"
+    ]
+  },
+  "libs": [
+    "Flask",
+    "Django",
+    "Celery",
+    "FastAPI",
+    "TailwindCSS",
+    "React"
+  ],
+  "databases": [
+    "MySQL, Postgres",
+    "Oracle",
+    "Microsoft SQL Server",
+    "MongoDB",
+    "Redis"
+  ],
+  "dev_tools": [
+    "Git",
+    "Docker",
+    "AWS",
+    "Azure DevOps"
+  ]
+}

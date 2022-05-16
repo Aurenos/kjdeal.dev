@@ -11,8 +11,3 @@ main.container.w-9/12.ml-12
       h1 Whomst?
       p My name is Kile and I'm a software engineer at 
         <%= link @env, "Threadless", to: "https://www.threadless.com" %> working fully remotely from Augusta, Georgia. 
-
-    = @lorem_ipsum |> Enum.map fn paragraph ->
-      section
-        h1 Heading
-        p.text-justify #{paragraph}

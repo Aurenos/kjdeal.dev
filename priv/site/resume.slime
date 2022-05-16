@@ -7,7 +7,10 @@ main.container.w-9/12.ml-12
   article
     section
       h1 Skills
+      = include @env, "_includes/skills.slime"
     section
       h1 Experience
+      = include @env, "_includes/experience.slime"
     section
       h1 Education
+      = include @env, "_includes/education.slime"

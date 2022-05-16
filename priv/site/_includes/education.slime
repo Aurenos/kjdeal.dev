@@ -1,0 +1,13 @@
+= @education |> Enum.map fn edu ->
+  div.mb-4
+    h2.flex.flex-row
+      span.text-2xl.font-sans.mb-2 💠 #{edu[:school]}
+    p.flex.flex-row.ml-7
+      span.font-sans #{edu[:degree]}
+      span.ml-4.text-cool-gray.text-base.my-auto.font-sans #{edu[:date]}
+    ul.list-disc
+      = edu[:distinctions] |> Enum.map fn dis ->
+        li.flex.flex-row.ml-12.list-item.text-base
+          span #{dis[:description]}
+          span.text-gray-400.my-auto.ml-2.italic #{dis[:date]}
+    

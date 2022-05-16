@@ -1,0 +1,30 @@
+- languages = @skills[:languages]
+- high_prof = languages[:high_proficiency]
+- proficient = languages[:proficient]
+- dabbled = languages[:dabbled]
+
+div.mb-4
+  h2.text-2xl.font-sans.mb-2 💠 Languages
+  table.ml-7
+    tbody
+      tr
+        td.pr-2.py-1.font-sans.text-yellow-red align="right" Highly Proficient
+        td.py-1 #{Enum.join(high_prof, ", ")}
+      tr.table-row
+        td.pr-2.py-1.font-sans.text-yellow-red align="right" Proficient
+        td.py-1 #{Enum.join(proficient, ", ")}
+      tr.table-row
+        td.pr-2.py-1.font-sans.text-yellow-red align="right" Dabbled
+        td.py-1 #{Enum.join(dabbled, ", ")}
+div.mb-4
+  h2.text-2xl.font-sans.mb-2 💠 Frameworks & Libraries
+  p.ml-7 #{Enum.join(@skills[:libs], ", ")}
+div.mb-4
+  h2.text-2xl.font-sans.mb-2 💠 Databases
+  p.ml-7 #{Enum.join(@skills[:databases], ", ")}
+div.mb-4
+  h2.text-2xl.font-sans.mb-2 💠 Tools
+  p.ml-7 #{Enum.join(@skills[:dev_tools], ", ")}
+
+
+
