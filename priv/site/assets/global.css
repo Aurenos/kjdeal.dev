@@ -16,6 +16,13 @@ main {
   @apply mb-auto;
 }
 
+input[type="text"], input[type="email"], textarea {
+  @apply bg-darker;
+  @apply border border-cool-gray rounded;
+  @apply placeholder-cool-gray;
+  @apply p-2;
+}
+
 h1 {
   @apply text-3xl font-bold font-sans;
   @apply mb-4;

@@ -8,9 +8,9 @@ main.mx-auto
     section.w-1/2
       h1 Send me a message!
       form.flex.flex-col.space-y-2 name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true"
-        input.bg-darker.border.border-cool-gray.rounded.placeholder-cool-gray.p-2 name="name" type="text" placeholder="Your Name"
-        input.bg-darker.border.border-cool-gray.rounded.placeholder-cool-gray.p-2 name="email" type="email" placeholder="Your Email"
-        textarea.bg-darker.border.border-cool-gray.rounded.placeholder-cool-gray.h-32.p-2 name="message" placeholder="Message"
+        input name="name" type="text" placeholder="Your Name" required="true"
+        input name="email" type="email" placeholder="Your Email" required="true"
+        textarea.h-32 name="message" placeholder="Message" required="true" maxlength="1000"
         div data-netlify-recaptcha="true"
         button.bg-gray-300.rounded.text-darker.w-1/2.mx-auto.font-sans.py-2 type="submit" Send
     section
